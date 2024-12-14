@@ -116,7 +116,7 @@ header {
   color: var(--pressed-background-color);
 }
 
-.navigation a:active {
+.navigation a:focus {
   color: var(--pressed-background-color);
 }
 
@@ -128,7 +128,7 @@ header {
   color: var(--pressed-background-color);
 }
 
-.addresses a:active {
+.addresses a:focus {
   color: var(--pressed-background-color);
 }
 
@@ -136,10 +136,13 @@ header {
   background-color: var(--dark-background-color);
   color: var(--dark-foreground-color);
   text-align: center;
-  height: 600px;
 }
 
 .section-header {
+  color: var(--dark-color);
+}
+
+.features .feature-name {
   color: var(--dark-color);
 }
 
@@ -173,13 +176,19 @@ header {
   text-align: center;
 }
 
-.portfolio .portfolio-item .description {
-  border-width: 0px 1px 1px 1px;
-  border-style: solid;
-  border-color: var(--accent-color);
+.portfolio .portfolio-item-name {
+  color: var(--dark-color);
 }
 
-footer {
+.footer {
   background-color: var(--dark-background-color);
   color: var(--dark-foreground-color);
+}
+
+.footer .logo-tail {
+  color: var(--light-color);
+}
+
+.footer .footer-text {
+  color: var(--light-color);
 }
