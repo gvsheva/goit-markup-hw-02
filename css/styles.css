@@ -1,0 +1,180 @@
+:root {
+  --dark-color: #2e2f42;
+  --light-color: #f4f4fd;
+  --accent-color: #e7e9fc;
+  --primary-background-color: #4d5ae5;
+  --primary-foreground-color: #ffffff;
+  --pressed-background-color: #404bbf;
+  --pressed-foreground-color: #ffffff;
+  --dark-background-color: #2e2f42;
+  --dark-foreground-color: #ffffff;
+  --light-background-color: #f4f4fd;
+  --light-foreground-color: #2e2f42;
+  --white-background-color: #ffffff;
+  --white-foreground-color: #2e2f42;
+  --success-background-color: #31d0aa;
+  --success-foreground-color: #ffffff;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  line-height: 60px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.small-text {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+}
+
+.medium-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  padding: 16px 32px;
+  background-color: var(--primary-background-color);
+  color: var(--primary-foreground-color);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  box-shadow:
+    0px 0px 12px 0px #0000000d inset,
+    0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {
+  background-color: var(--pressed-background-color);
+  color: var(--pressed-foreground-color);
+}
+
+a {
+  font-style: normal;
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background-color: var(--white-background-color);
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.logo {
+  text-transform: uppercase;
+  font-family: "Ralway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo span {
+  color: var(--primary-background-color);
+}
+
+.navigation a {
+  color: var(--dark-color);
+}
+
+.navigation a:hover {
+  color: var(--primary-background-color);
+}
+
+.navigation a.active {
+  color: var(--pressed-background-color);
+}
+
+.addresses a:hover {
+  color: var(--primary-background-color);
+}
+
+.hero {
+  background-color: var(--dark-background-color);
+  color: var(--dark-foreground-color);
+  text-align: center;
+  height: 600px;
+  box-shadow: 0px 0px 12px 0px #0000000d inset;
+}
+
+.features > h2 {
+  display: none;
+}
+
+.team {
+  background-color: var(--light-background-color);
+  box-shadow: 0px 0px 12px 0px #0000000d inset;
+}
+
+.team > h2 {
+  text-align: center;
+}
+
+.team .team-member {
+  background-color: var(--white-background-color);
+  box-shadow:
+    0px 2px 1px 0px #2e2f4214,
+    0px 1px 1px 0px #2e2f4229,
+    0px 1px 6px 0px #2e2f4214;
+  border-radius: 0px 0px 4px 4px;
+  padding-bottom: 32px;
+}
+
+.team .team-member h3 {
+  color: var(--dark-color);
+}
+
+.portfolio {
+  border: 1px solid var(--accent-background-color);
+}
+
+.portfolio h2 {
+  text-align: center;
+}
+
+.portfolio .portfolio-item .description {
+  padding: 16px 32px;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: var(--accent-color);
+}
+
+footer {
+  background-color: var(--dark-background-color);
+  color: var(--dark-foreground-color);
+  box-shadow: 0px 0px 12px 0px #0000000d inset;
+}
